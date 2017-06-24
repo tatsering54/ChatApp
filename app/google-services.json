@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1049879227628",
+    "firebase_url": "https://chatapp-b3afb.firebaseio.com",
+    "project_id": "chatapp-b3afb",
+    "storage_bucket": "chatapp-b3afb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049879227628:android:ea3e6dd805a9229b",
+        "android_client_info": {
+          "package_name": "com.example.taz.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049879227628-52rvdu44869jpbea9j9bp2t32osj43gp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.taz.chatapp",
+            "certificate_hash": "88583a014af35a0385c8b9b7f7dcdfddba3f5001"
+          }
+        },
+        {
+          "client_id": "1049879227628-4q715ajurnqie7tpbudnpjlvb8vgt74g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8qUpzgnlI3pq7N1iwJjBc1rPiTKB3J3Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049879227628-4q715ajurnqie7tpbudnpjlvb8vgt74g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

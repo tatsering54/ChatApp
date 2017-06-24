@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_get_started"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:background="@color/colorPrimary"
+    tools:context="com.example.taz.chatapp.GetStartedActivity">
+
+    <Button
+        android:text="Get Started"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:textColor="#FFF"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"
+        android:id="@+id/GetStartedRegister"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <Button
+        android:text="Sign In"
+        android:background="#FFF"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/GetStartedRegister"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/GetStartedSignIn"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/buildingimg"
+        android:layout_above="@+id/GetStartedSignIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:text="Khata"
+        android:textSize="26sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="Connecting People's Heart"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView2" />
+
+</RelativeLayout>
